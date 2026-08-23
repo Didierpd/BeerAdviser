@@ -9,19 +9,23 @@ public class BeerExpert {
     public List<String> getBrands(String color) {
         List<String> brands = new ArrayList<>();
 
-        if ("light".equalsIgnoreCase(color)) {
-            brands.add("Jail Pale Ale");
-            brands.add("Gout Stout");
-        } else if ("amber".equalsIgnoreCase(color)) {
-            brands.add("Jack Amber");
-            brands.add("Red Moose");
-        } else if ("brown".equalsIgnoreCase(color)) {
-            brands.add("Brown Bear Beer");
-            brands.add("Bock Brownie");
+        if ("Aguila".equalsIgnoreCase(color)) {
+            brands.add("Negra");
+            brands.add("Light");
+        } else if ("Corona".equalsIgnoreCase(color)) {
+            brands.add("Grande");
+            brands.add("Pequeña");
+        } else if ("Poker".equalsIgnoreCase(color)) {
+            brands.add("Lata");
+            brands.add("Botella");
+        } else if ("Heineken".equalsIgnoreCase(color)) {
+            brands.add("Elige otra");
+            brands.add("No disponible");
+
         } else {
-            brands.add("Dark Elf");
-            brands.add("Blackbird Porter");
+            brands.add("Opción no reconocida");
         }
+
 
         return brands;
     }

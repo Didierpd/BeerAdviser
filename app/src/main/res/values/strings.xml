@@ -11,10 +11,10 @@
     <string name="services_result_placeholder">Aquí aparecerán los servicios relacionados.</string>
 
     <string-array name="beer_colors">
-        <item>light</item>
-        <item>amber</item>
-        <item>brown</item>
-        <item>dark</item>
+        <item>Aguila</item>
+        <item>Corona</item>
+        <item>Poker</item>
+        <item>Heineken</item>
     </string-array>
 
     <string-array name="service_categories">
