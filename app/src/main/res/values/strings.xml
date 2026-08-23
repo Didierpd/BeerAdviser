@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Beer Adviser y Servicios Virtuales</string>
+    <string name="app_description">Laboratorio de aplicaciones interactivas para Android</string>
+    <string name="beer_section_title">Laboratorio base: Beer Adviser</string>
+    <string name="beer_prompt">Selecciona el color de cerveza:</string>
+    <string name="find_beer">Buscar cervezas</string>
+    <string name="beer_result_placeholder">Aquí aparecerán las cervezas recomendadas.</string>
+    <string name="services_section_title">Extensión: educación virtual</string>
+    <string name="category_prompt">Selecciona una categoría:</string>
+    <string name="find_services">Mostrar servicios</string>
+    <string name="services_result_placeholder">Aquí aparecerán los servicios relacionados.</string>
+
+    <string-array name="beer_colors">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="service_categories">
+        <item>Foro</item>
+        <item>Videoconferencia</item>
+        <item>Recursos</item>
+        <item>Evaluación</item>
+    </string-array>
+</resources>
